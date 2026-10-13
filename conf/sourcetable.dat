@@ -1,0 +1,3 @@
+CAS;acela.proxy.rlwy.net;28154;ALSUT;ICT;0;IDN;-6.2;106.8;none
+NET;ALSUT;ICT;B;N;none;none;admin@example.com;none
+STR;TEST01;Jakarta;RTCM 3.3;none;2;GPS;ALSUT;IDN;-6.2;106.8;0;0;TEST01;none;B;N;0;Test mountpoint
