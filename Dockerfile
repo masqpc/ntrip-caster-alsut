@@ -42,6 +42,8 @@ COPY --from=builder /usr/local/ntripcaster/ /usr/local/ntripcaster/
 # Copy .dist templates as default configs
 RUN cd /usr/local/ntripcaster/conf \
     && for f in *.dist; do cp "$f" "${f%.dist}"; done
+    
+COPY conf/sourcetable.dat /usr/local/ntripcaster/conf/sourcetable.dat
 
 # Ensure log and var directories exist
 RUN mkdir -p /usr/local/ntripcaster/logs /usr/local/ntripcaster/var
